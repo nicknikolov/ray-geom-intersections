@@ -4,8 +4,8 @@ const ray = require('pex-geom/Ray')
 // give me ray and geometry and i'll give you intersection points
 module.exports = function (out, rayOrigin, rayDirection, vertices, triangles) {
   out.length = 0
-  let point = []
   for (let i = 0; i < triangles.length; i++) {
+    let point = []
     let triangle = triangles[i]
     let p0 = vec3.copy(vertices[triangle[0]])
     let p1 = vec3.copy(vertices[triangle[1]])

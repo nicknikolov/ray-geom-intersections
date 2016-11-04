@@ -1,0 +1,21 @@
+{
+  "name": "ray-geom-intersections",
+  "version": "1.0.0",
+  "description": "generate array of intersection points from array and geometry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webgl",
+    "ray",
+    "geometry",
+    "intersection"
+  ],
+  "author": "nicknikolov <nick@nklv.me>",
+  "license": "MIT",
+  "dependencies": {
+    "pex-geom": "^1.0.0-beta.2",
+    "pex-math": "^1.0.1"
+  }
+}

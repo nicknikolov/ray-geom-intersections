@@ -1,6 +1,6 @@
 {
   "name": "ray-geom-intersections",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate array of intersection points from array and geometry",
   "main": "index.js",
   "scripts": {
